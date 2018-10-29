@@ -1,0 +1,495 @@
+html {
+    position:relative;
+}
+
+body{
+    font-family: lato;
+    margin-bottom:100px;
+    
+}
+
+.wrap-container{
+    overflow: hidden;
+}
+
+#img-depan{
+    border-radius: 10px;
+    box-shadow:  1px 2px 10px rgba(0,0,0,0.2);
+}
+
+.row-padding{
+    padding: 100px 0px;
+    color: #606060;
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.home-arfa{margin-top:  150px;}
+
+
+
+.home-arfa h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.home-arfa h4 {
+    font-weight:  300;
+    margin-top:  20px;
+    font-size:  21px;
+    letter-spacing: 2px;
+}
+
+
+
+.btn.tombol-action {
+    background: #3a95e4;
+    cursor:  pointer;
+    color:  white;
+    font-size: 15px;
+    letter-spacing:  2px;
+    padding: 6px 13px;
+    display:  inline-block;
+    margin-right:  3px;
+}
+
+.btn.tombol-action:hover{
+    color:white;
+    background:#45a6f9;
+
+}
+
+.showcase{
+    padding-top:  20px;
+    padding-bottom:  0px;
+}
+
+.showcase img {
+    width: 85%;
+}
+
+h5.quote {
+    font-size:  23px;
+    line-height:  35px;
+    color:  #4e4e4e;
+}
+
+h6.penulis {
+    font-size:  17px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.border-line{
+    position: relative;
+}
+
+.border-line::before{
+    content: '';
+    position: absolute;
+    display:  block;
+    height:  1px;
+    background-color:  #d0d0d0;
+    left:  -500px;
+    right:  -500px;
+    top: 50%;
+}
+
+.card-floating{
+    border-top: 5px solid #5bacf3;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
+
+.card-padding{padding: 30px;}
+
+.card-title{font-weight: 100;}
+
+.row-divider {
+    position: relative;
+}
+
+.row-divider::before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height:  1px;
+    background: radial-gradient(rgba(0,0,0,0.2),rgba(255,255,255,0) 79%);
+    top: 0px;
+    margin-left:  -40%;
+    left:  50%;
+}
+
+.head-section {
+    margin-bottom:  60px;
+}
+
+.teknologi img {
+    margin-top:  30px;
+    margin-bottom: 30px;
+}
+
+.teknologi h5 {
+    font-size:  20px;
+    font-weight:  bold;
+    margin-bottom:  15px;
+}
+
+.navbar-arfa {
+    margin-top: 50px;
+}
+
+.nav-li-arfa li {
+    margin-left: 30px;
+}
+
+@media(max-width: 540px){
+    .navbar-arfa{
+    top: 0px;
+    left:  0px;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    background:  #f9f9f9;
+    z-index: 2;
+    }
+
+    .navbar-light .navbar-toggler{
+        font-size: 16px;
+        padding: 5px 7px;
+        cursor: pointer;;
+    }   
+
+    .clean-code{
+        margin-top: 30px;
+    }
+
+    .row-padding {
+    padding: 50px 0px;
+    color: #606060;
+    }
+
+    #login{
+        margin-top: 80px;
+    }
+
+    .form-login {margin-top: 20px;}
+
+    .register{
+        padding-top: 50px;
+    }
+
+    .form-register {margin-top: 20px;}
+
+
+
+}
+
+.login{
+    margin-top: 80px;
+    height: 100%;
+    /* position:relative; */
+    min-height: 600px;
+}
+
+.page-login{
+    height: 100%;
+    position:relative;
+}
+
+.form-login {margin-top: 20px;}
+
+.register{
+    margin-top: 30px;
+    min-height: 600px;
+}
+
+.form-register {margin-top: 20px;}
+
+#kiri {
+    width: 245px;
+    height:  auto;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#menu-kategori ul {
+    list-style:  none;
+    margin:  0px;
+    padding: 0px;
+}
+
+#menu-kategori ul li {
+    margin-bottom:  5px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+#menu-kategori ul li a {
+    display:  block;
+    padding:  10px;
+    background: white;
+    color: #1e5474;
+    text-decoration:  none;
+}
+
+
+#menu-kategori ul li a:hover,
+#menu-kategori ul li a.active{
+    background:#e8e8e8;
+}
+
+frame-materi ul {}
+
+#kanan #frame-materi ul {
+    list-style:  none;
+    margin: 0px;
+    padding:  0px;
+    overflow:  hidden;
+}
+
+#kanan #frame-materi ul li {
+    width: 265px;
+    background: white;
+    padding:  10px 15px;
+    margin-bottom:  15px;
+    margin-right:  15px;
+    float:  left;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+#kanan #frame-materi ul li a img {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    align-items:  center;
+}
+
+#kanan #frame-materi ul li .judul-materi {
+    border-top: 1px solid #E6E6E6;
+    padding: 10px 0px;
+    height: 70px;
+}
+
+#kanan #frame-materi ul li .judul-materi p {
+    text-align:  center;
+    margin: 5px 0px;
+    /* color:  black; */
+}
+
+#kanan #frame-materi ul li .judul-materi p a {
+    font-weight:  bold;
+    text-decoration:  none;
+    color:  #1e5474;
+    font-family:  lato;
+}
+
+#kanan #frame-materi ul .judul-materi span {
+    display:  block;
+    text-align: left;
+}
+
+#kanan {
+    width: 850px;
+    margin-top: 20px;
+    margin-left:  15px;
+    height:  auto;
+    float:  left;
+}
+
+#kanan #frame-materi ul li .btn-read {
+    text-decoration:  none;
+    padding:  5px 10px;
+    display:  inline-block;
+    margin-top:  10px;
+}
+
+#kanan #frame-materi ul li .button-read {
+    text-align:  center;
+}
+
+.kiri {
+    width: 240px;
+    height:  auto;
+    float:  left;
+}
+
+.kanan {
+    width: 810px;
+    float:  left;
+    height:  auto;
+}
+
+#detail-materi {
+    background:  white;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 80px;
+}
+
+#detail-materi h3 {
+    margin-top:  0px;
+    color:  #1e5474;
+    font-weight: bold;
+}
+
+.frame-gambar {}
+
+#detail-materi .frame-gambar {
+    background:  #FBFBFB;
+    padding:  20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+#detail-materi h2 img {}
+
+#detail-materi .frame-gambar img {
+    display:  block;
+    margin:  0px auto;
+}
+
+#detail-materi #isi {
+    margin: 20px 0px;
+}
+
+.detail {
+    margin-top: 20px;
+}
+
+#hal_admin {
+    display:  inline-block;
+    text-decoration:  none;
+    color:  #45a6f9;
+}
+
+
+.bg-page-profile {
+    overflow:  hidden;
+    margin-top: 20px;
+    padding-right:  0px;
+}
+
+.menu-profile {
+    float:  left;
+    width:  245px;
+    background:  #1e5474;
+    padding: 0px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.menu-profile ul {
+    margin: 0px;
+    padding:  0px;
+    list-style:  none;
+}
+
+.menu-profile ul li a {
+    display:  block;
+    color:  white;
+    text-decoration:  none;
+    padding:  10px 20px;
+}
+
+.menu-profile ul li a:hover,
+.menu-profile ul li a.active{
+    background:orange;
+}
+
+.konten-profile {
+    float:  left;
+    width: 100%;
+    padding:  10px;
+    background:  white;
+    box-shadow:  0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.frame-tamabah {
+    margin-bottom:  10px;
+    text-align:  right;
+    overflow:  hidden;
+}
+
+.btn-kategori {
+    /* padding: 5px; */
+}
+
+.element-form {
+    margin: 10px 10px;
+    padding-top: 10px;
+}
+
+.element-form label {display:  inherit;}
+
+.background-footer {
+    text-align:  center;
+    border:  1px solid;
+    padding: 20px 0px;
+    color: white;
+    background: #5bacf3;
+}
+
+.gambar {
+    width:  200px;
+    height: 200px;
+    margin-top: 5px;
+    display: inline-flex;
+    margin-bottom:  5px;
+}
+
+#hr-portofolio {
+    width:  250px;
+    border-top: 3px solid #eee;
+}
+
+.portofolio{
+    background: #F7F7F7;
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
+
+.thumbnail-portofolio {
+    padding: 10px 10px;
+}
+
+a.page-link {
+    color: black;
+}
+
+a.active.pg {
+    color: white;
+    text-decoration: none;
+}
+
+.col-sm-12.text-center {
+    padding-top: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    background-color: #4e4e4e;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    padding-top: 30px;
+}
+
+#frame-materi {
+    margin-bottom: 80px;
+}
+
+footer p {
+    color: white;
+}
+
+a.btn.btn-info {
+    width: 154.55px;
+    height: 36px;
+    background-color: #17a2b8;
+}
+
+a.btn.btn-success {
+    width: 154.55px;
+    height: 36px;
+}
